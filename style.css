@@ -1,0 +1,52 @@
+* {
+	padding-top: 20px;
+	background: #2D3250;
+	color: #F6B17A;
+	text-align: center;
+	font-size: 30px;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #424769;
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 50px; 
+    width: 180px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.card {
+    width: 120px;
+    height: 160px;
+    background-color: #7077A1;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    line-height: 150px;
+    cursor: pointer;
+}
+
+.block_link {
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+.block_link::after {
+    display: block;
+    position: absolute;
+    left: 0; 
+    width: 0;
+    height: 3px; 
+    background-color: #F6B17A; 
+    content: "";
+    transition: width 0.3s ease-out; 
+}
+.block_link:hover::after {
+    width: 100%;
+}
+
+#counter {
+    font-size: 35px;    
+}
