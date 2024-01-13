@@ -23,6 +23,4 @@ Documentation Here
 
 ## Developers
 
-- [Delevoper Name](GitHub Profile Link)
-
-## License
+- Egor(https://github.com/AwesomeWhiteWolf)
